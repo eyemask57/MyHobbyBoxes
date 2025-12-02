@@ -1,10 +1,13 @@
 ---
-title: page-title
+title: "page-title"
 date: '{{ now.Format "2006-01-02" }}'
 draft: true
 url: 'pm/{{ template "permanentId" }}/'
 categories: [""]
 tags: [""]
+series: [""]
+types: [""]
+topics: [""]
 ---
 
 {{ define "permanentId" -}}
