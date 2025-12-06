@@ -1,4 +1,4 @@
-languageName = "japanese"
+languageName = "日本語"
 weight = 1
 
 [languages.ja.params]
@@ -8,7 +8,9 @@ weight = 1
   dateFormat = "2006-01-02 Mon, 15:04:05 Z07:00"
   logo = "img/HobbyBox.png"
   description = "ベータテスト版です"
-  copyright = "eyemask57"
+  copyright = "eyemask57 2025"
+  lisense = "MIT"
+  cc = "CC-BY 4.0"
 
 [params.author]
   name = "eyemask57"

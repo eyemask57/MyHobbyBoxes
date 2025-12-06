@@ -4,9 +4,10 @@
 
 theme = "blowfish"              # UNCOMMENT THIS LINE
 baseURL = "https://eyemask.jp/"
+relativeurls = true
 defaultContentLanguage = "ja"
 languageCode = "ja"
-title = "My Hobby Boxes"
+title = "My Hobby Box"
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
@@ -30,7 +31,6 @@ tag = "tags"
 category = "categories"
 series = "series"
 type = "types"
-topic = "topics"
 
 [sitemap]
 changefreq = 'daily'
@@ -43,10 +43,6 @@ home = ["HTML", "RSS", "JSON"]
 [related]
 threshold = 0
 toLower = false
-
-[[related.indices]]
-name = "topics"
-weight = 100
 
 [[related.indices]]
 name = "types"
