@@ -7,24 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2025 eyemask57</copyright>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/types/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/types/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Dictionary</title>
-      <link>http://localhost:1313/types/dictionary/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <title>Article</title>
+      <link>http://localhost:1313/types/article/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/types/dictionary/</guid>
+      <guid>http://localhost:1313/types/article/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Article</title>
-      <link>http://localhost:1313/types/article/</link>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <title>Dictionary</title>
+      <link>http://localhost:1313/types/dictionary/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/types/article/</guid>
+      <guid>http://localhost:1313/types/dictionary/</guid>
       <description></description>
       
     </item>
