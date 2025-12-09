@@ -9,7 +9,6 @@ series_order: 1
 types: [
   "article",
 ]
-showTableOfContents: true
 ---
 {{< katex >}}
 

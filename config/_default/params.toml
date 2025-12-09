@@ -5,13 +5,13 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-colorScheme = "Blowfish"
-defaultAppearance = "light" # valid options: light or dark
+colorScheme = "Ocean"
+defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = false
 
 enableA11y = true
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 
 replyByEmail = false
 
@@ -50,11 +50,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [homepage]
   layout = "page" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "img/hero.png" # used in: hero, and card
+  homepageImage = "img/OGP.png" # used in: hero, and card
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 9
   showMoreLink = false
-  showMoreLinkDest = "/posts/"
+  showMoreLinkDest = "/article/"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
@@ -68,8 +68,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showDateUpdated = false
   showAuthor = true
   showAuthorBottom = true
-  showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
@@ -77,35 +77,35 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
-  seriesOpened = false
+  seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = true
-  showRelatedContent = false
-  relatedContentLimit = 3
+  showRelatedContent = true
+  relatedContentLimit = 6
   showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
   showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
   showAuthorsBadges = false
-  showWordCount = true
-  # sharingLinks = [ "twitter"]
+  showWordCount = false
+  sharingLinks = ["twitter","bluesky","line","email"]
   showZenMode = false
 
 [list]
   showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
-  showSummary = false
+  showSummary = true
   showViews = false
   showLikes = false
   showTableOfContents = false
   showCards = true
   orderByWeight = false
-  groupByYear = true
-  cardView = false
+  groupByYear = false
+  cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
 
@@ -120,7 +120,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showViews = false
   showLikes = false
   showTableOfContents = false
-  cardView = false
+  cardView = true
 
 [term]
   showHero = false
@@ -128,9 +128,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showBreadcrumbs = false
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false
   groupByYear = false
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
 
 [firebase]

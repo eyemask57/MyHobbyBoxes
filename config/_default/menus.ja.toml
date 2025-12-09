@@ -10,26 +10,30 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "Articles"
-  pageRef = "posts"
-  weight = 10
-
 #[[main]]
 #  name = "Parent"
 #  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+name = "ノート"
+weight = 10
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+name = "記事"
+pageRef = "article"
+parent = "ノート"
+weight = 10
+
+[[main]]
+name = "用語集"
+pageRef = "dictionary"
+parent = "ノート"
+weight = 11
+
+[[main]]
+name = "ブログ"
+pageRef = "blog"
+weight = 12
 
 #[[subnavigation]]
 #  name = "An interesting topic"
@@ -53,31 +57,26 @@
 #  weight = 30
 
 [[main]]
-  pre = "github"
-  name = "GitHub"
-  url = "https://github.com/eyemask57"
-  weight = 30
-
-[[main]]
-  pre = "twitter"
-  name = "Twitter"
-  url = "https://x.com/eyemask2433"
-  weight = 40
+pre = "twitter"
+name = "Twitter"
+url = "https://x.com/eyemask2433"
+weight = 40
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "プライバシー"
-  url = "https://external-link"
+name = "タグ"
+pageRef = "tags"
+weight = 10
 
 [[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 10
+name = "カテゴリー"
+pageRef = "categories"
+weight = 20
 
 [[footer]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+name = "シリーズ"
+pageRef = "series"
+weight = 20

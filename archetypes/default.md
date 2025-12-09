@@ -14,6 +14,7 @@ types: [
   "dictionary"
 ]
 showTableOfContents: false
+showAuthor: false
 ---
 {{< katex >}}
 

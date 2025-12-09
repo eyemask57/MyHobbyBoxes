@@ -2,8 +2,8 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-theme = "blowfish"              # UNCOMMENT THIS LINE
-baseURL = "https://eyemask.jp/"
+theme = "blowfish"             # UNCOMMENT THIS LINE
+baseURL = "https://eyemask.jp"
 relativeurls = true
 defaultContentLanguage = "ja"
 languageCode = "ja"
@@ -41,31 +41,31 @@ priority = 0.5
 home = ["HTML", "RSS", "JSON"]
 
 [related]
-threshold = 0
+threshold = 20
 toLower = false
 
 [[related.indices]]
 name = "types"
-weight = 100
+weight = 21
 
 [[related.indices]]
 name = "tags"
-weight = 100
+weight = 19
 
 [[related.indices]]
 name = "categories"
-weight = 100
+weight = 20
 
 [[related.indices]]
 name = "series"
-weight = 50
+weight = 11
 
 [[related.indices]]
 name = "date"
-weight = 10
+weight = 12
 
 [[related.indices]]
-applyFilter = false
+applyFilter = true
 name = 'fragmentrefs'
 type = 'fragments'
-weight = 10
+weight = 80
