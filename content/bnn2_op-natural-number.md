@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "自然数の演算の構成"
+title: "自然数の演算"
 date: '2025-12-06'
 url: 'pm/iliuwwf3yp/'
 categories: ["数学","集合論","数の構成"]

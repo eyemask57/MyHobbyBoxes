@@ -13,7 +13,7 @@ types: [
   "blog",
   "dictionary"
 ]
-toc: false
+showTableOfContents: false
 ---
 {{< katex >}}
 

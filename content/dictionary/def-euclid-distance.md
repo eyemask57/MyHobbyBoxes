@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Euclid 距離"
 date: '2025-12-06'
 url: 'id/m3nsu3isaf/'

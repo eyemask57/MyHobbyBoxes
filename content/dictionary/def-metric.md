@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "距離の公理"
 date: '2025-12-05'
 url: 'id/lk9nht7x48/'

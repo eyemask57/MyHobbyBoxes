@@ -7,22 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2025 eyemask57</copyright>
-    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>幾何学</title>
-      <link>http://localhost:1313/categories/%E5%B9%BE%E4%BD%95%E5%AD%A6/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/categories/%E5%B9%BE%E4%BD%95%E5%AD%A6/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>集合論</title>
       <link>http://localhost:1313/categories/%E9%9B%86%E5%90%88%E8%AB%96/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/%E9%9B%86%E5%90%88%E8%AB%96/</guid>
       <description></description>
@@ -32,7 +22,7 @@
     <item>
       <title>数の構成</title>
       <link>http://localhost:1313/categories/%E6%95%B0%E3%81%AE%E6%A7%8B%E6%88%90/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/%E6%95%B0%E3%81%AE%E6%A7%8B%E6%88%90/</guid>
       <description></description>
@@ -42,9 +32,19 @@
     <item>
       <title>数学</title>
       <link>http://localhost:1313/categories/%E6%95%B0%E5%AD%A6/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>幾何学</title>
+      <link>http://localhost:1313/categories/%E5%B9%BE%E4%BD%95%E5%AD%A6/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%B9%BE%E4%BD%95%E5%AD%A6/</guid>
       <description></description>
       
     </item>
