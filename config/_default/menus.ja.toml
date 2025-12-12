@@ -21,8 +21,42 @@ weight = 1
 
 [[main]]
 name = 'about'
-pageRef = "/0-about/"
-weight = 2
+weight = 5
+
+
+[[main]]
+name = "サイトについて・使い方"
+pageRef = "my-site"
+parent = "about"
+weight = 10
+
+[[main]]
+name = "ご挨拶"
+pageRef = "greetings"
+parent = "about"
+weight = 15
+
+[[main]]
+name = "権利について"
+pageRef = "rights"
+parent = "about"
+weight = 20
+
+[[main]]
+name = "修正履歴"
+pageRef = "fixed"
+parent = "about"
+weight = 25
+
+[[main]]
+name = "プライバシー・ポリシー"
+pageRef = "privacy-policy"
+parent = "about"
+weight = 30
+
+[[main]]
+name = "ノート"
+weight = 30
 
 [[main]]
 name = "記事"
@@ -35,10 +69,6 @@ name = "シリーズ"
 pageRef = "/series/"
 parent = "ノート"
 weight = 20
-
-[[main]]
-name = "ノート"
-weight = 30
 
 [[main]]
 name = "用語集"
