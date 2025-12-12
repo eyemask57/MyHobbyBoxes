@@ -1,16 +1,16 @@
 ---
-title: "距離の公理"
+title: "定義: 距離"
 date: '2025-12-05'
 url: 'id/lk9nht7x48/'
 aliases: "/aliases/metric/"
-categories: ["数学","幾何学"]
-tags: ["距離空間","距離","位相空間論","位相幾何学"]
-types: ["dictionary"]
+categories: ["数学","幾何学","位相空間論"]
+tags: ["距離空間","距離"]
+showTableOfContents: false
 showAuthor: false
 ---
 {{< katex >}}
 
-### 定義: 距離(metric) [[/id/lk9nht7x48/]](/id/lk9nht7x48/)
+### 定義: 距離 [[/id/lk9nht7x48/]](/id/lk9nht7x48/)
 
 集合 \(X\) の **距離(metric)** または **距離関数(metric function)**
 は以下の公理を満たす写像

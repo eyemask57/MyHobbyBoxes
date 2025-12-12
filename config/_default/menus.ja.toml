@@ -15,25 +15,53 @@
 #  weight = 20
 
 [[main]]
-name = "ノート"
-weight = 10
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = 'about'
+pageRef = "/0-about/"
+weight = 2
 
 [[main]]
 name = "記事"
-pageRef = "article"
+pageRef = "/categories/article/"
 parent = "ノート"
 weight = 10
 
 [[main]]
-name = "用語集"
-pageRef = "dictionary"
+name = "シリーズ"
+pageRef = "/series/"
 parent = "ノート"
-weight = 11
+weight = 20
+
+[[main]]
+name = "ノート"
+weight = 30
+
+[[main]]
+name = "用語集"
+pageRef = "/0-dictionary/"
+parent = "ノート"
+weight = 30
+
+[[main]]
+name = "タグ"
+pageRef = "/tags/"
+parent = "ノート"
+weight = 40
+
+[[main]]
+name = "カテゴリー"
+pageRef = "/categories/"
+parent = "ノート"
+weight = 50
 
 [[main]]
 name = "ブログ"
-pageRef = "blog"
-weight = 12
+pageRef = "/0-blog/"
+weight = 35
 
 #[[subnavigation]]
 #  name = "An interesting topic"
@@ -66,17 +94,8 @@ weight = 40
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-[[footer]]
-name = "タグ"
-pageRef = "tags"
-weight = 10
 
 [[footer]]
-name = "カテゴリー"
-pageRef = "categories"
-weight = 20
-
-[[footer]]
-name = "シリーズ"
-pageRef = "series"
-weight = 20
+name = '&copy; 2025 eyemask57, CC BY-NC 4.0'
+pageRef = "rights"
+weight = 1

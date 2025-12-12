@@ -1,13 +1,10 @@
 ---
-title: "最小の帰納的集合の一意性"
+title: "命題: 最小の帰納的集合の一意性"
 date: '2025-12-08'
 url: 'id/2v3gcmrrcp/'
 aliases: "/aliases/prop-inductive-set/"
 categories: ["数学","集合論","数の構成"]
-tags: ["自然数","Peano構造"]
-types: [
-  "dictionary"
-]
+tags: ["自然数","Peano の公理"]
 showTableOfContents: false
 showAuthor: false
 ---

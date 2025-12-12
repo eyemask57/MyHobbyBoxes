@@ -1,13 +1,10 @@
 ---
-title: "自然数の正当性"
+title: "命題: 自然数の正当性"
 date: '2025-12-08'
 url: 'id/lyby0a3r5y/'
 aliases: "/aliases/prop-natural-number/"
 categories: ["数学","集合論","数の構成"]
-tags: ["自然数","Peano構造"]
-types: [
-  "dictionary"
-]
+tags: ["自然数","Peano の公理"]
 showTableOfContents: false
 showAuthor: false
 ---

@@ -30,7 +30,6 @@ anchor = 'Center'
 tag = "tags"
 category = "categories"
 series = "series"
-type = "types"
 
 [sitemap]
 changefreq = 'daily'
@@ -43,10 +42,6 @@ home = ["HTML", "RSS", "JSON"]
 [related]
 threshold = 20
 toLower = false
-
-[[related.indices]]
-name = "types"
-weight = 21
 
 [[related.indices]]
 name = "tags"
@@ -62,7 +57,7 @@ weight = 11
 
 [[related.indices]]
 name = "date"
-weight = 12
+weight = 30
 
 [[related.indices]]
 applyFilter = true

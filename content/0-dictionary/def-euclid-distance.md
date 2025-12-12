@@ -1,13 +1,10 @@
 ---
-title: "Euclid 距離"
+title: "定義: Euclid 距離"
 date: '2025-12-06'
 url: 'id/m3nsu3isaf/'
 aliases: "/aliases/euclid-distance/"
-categories: ["数学","幾何学"]
-tags: ["距離空間","距離","位相空間論","Euclid幾何学"]
-types: [
-    "dictionary"
-]
+categories: ["数学","幾何学","Euclid 幾何学","位相空間論"]
+tags: ["距離空間","距離"]
 showAuthor: false
 ---
 {{< katex >}}

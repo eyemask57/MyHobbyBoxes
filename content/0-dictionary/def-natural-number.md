@@ -1,13 +1,10 @@
 ---
-title: "自然数"
+title: "定義: 自然数"
 date: '2025-12-08'
 url: 'id/91l9gi0mbc/'
 aliases: "/aliases/natural-number/"
 categories: ["数学","集合論","数の構成"]
-tags: ["自然数","Peano構造"]
-types: [
-  "dictionary"
-]
+tags: ["自然数","Peano の公理"]
 showTableOfContents: false
 showAuthor: false
 ---

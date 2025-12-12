@@ -1,13 +1,10 @@
 ---
-title: "帰納的集合"
+title: "定義: 帰納的集合"
 date: '2025-12-08'
 url: 'id/axocreiv9r/'
 aliases: "/aliases/inductive-set/"
 categories: ["数学","集合論","数の構成"]
-tags: ["自然数"]
-types: [
-  "dictionary"
-]
+tags: ["自然数","帰納的集合"]
 showTableOfContents: false
 showAuthor: false
 ---

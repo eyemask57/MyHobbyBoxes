@@ -1,13 +1,10 @@
 ---
-title: "空集合の公理"
+title: "公理: 空集合の公理"
 date: '2025-12-08'
 url: 'id/savxr690rp/'
 aliases: "/aliases/empty-set/"
 categories: ["数学","集合論","数の構成"]
 tags: ["自然数","公理的集合論"]
-types: [
-  "dictionary"
-]
 showTableOfContents: false
 showAuthor: false
 ---
